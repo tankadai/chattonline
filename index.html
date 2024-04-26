@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ChatTT Online</title>
+<link rel="stylesheet" href="/chat/style.css">
+<link rel="icon" href="/chat/logo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+          <h2 class="logo"><a href="#"><img src="/chat/logo.png" alt="" height="50px"></a></h2>
+          <ul class="all-links">
+            <li><a href="#aboutus">About us</a></li>
+            <li><a href="#contactus">Contact us</a></li>
+          </ul>
+        </nav>
+      </header>
+  <div class="container">
+    <button id="generateCodeBtn">Generate Chat Code</button>
+    <button id="enterCodeBtn">Enter Chat Code</button>
+    <div id="chatCodeContainer" style="display: none;">
+      <label for="chatCodeInput">Enter Chat Code:</label>
+      <input type="text" id="chatCodeInput" placeholder="Enter chat code...">
+      <button id="joinChatBtn">Join Chat</button>
+    </div>
+    <button id="generatedCodeBtn" style="display: none;"></button>
+  </div>
+  <script src="/chat/script.js"></script>
+</body>
+</html>
